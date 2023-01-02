@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript | Strings and String Methods</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Lorem ipsum dolor sit.</h1>
+        <div id="content"></div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam corporis accusantium molestias excepturi at odit repudiandae, dolore doloremque amet officiis exercitationem, vitae beatae, porro iusto atque voluptates! Quo accusantium saepe nemo quod possimus laboriosam.</p>
+    </div>
+    <script>
+        var string="this ";
+        console.log(string)
+        var string1='that'
+        console.log(string1)
+        console.log(string + string1)  // string concatenating 
+        var name="atul";
+        var message='books';
+        var temp=`${name} is a good boy and he love to read ${message}`;
+        console.log(temp);
+        var len=name.length;
+        console.log(len)
+        console.log(name.length)
+
+        console.log('Hello World \n My name is Tom \t and   \b   hii ')   // backslash n is a escape sequence character
+
+        var y=new String("this");
+        console.log(y)
+
+        document.getElementById('content').innerHTML='<h3> this is an h3 heading</h3>'
+    </script>
+</body>
+</html>
