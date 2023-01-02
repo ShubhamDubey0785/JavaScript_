@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        var str="This is a string ";
+        console.log(str)
+        var position=str.indexOf('is');   // indexOf gives first occurence of substring
+        var positions=str.lastIndexOf('is');  // lastIndexOf  gives last occurence of substring
+        console.log(position)
+        console.log(positions)
+
+        // Substring from a string
+        // var substr=str.slice(1,6);
+        var substr=str.substring(1,7)
+        var substr1=str.substr(1,7)
+        console.log(substr)
+        console.log(substr1)
+
+        var replaced = str.replace('string',"Aman")
+        console.log(replaced)
+
+        console.log(str.toUpperCase())
+        console.log(str.toLowerCase())
+
+        var newString=str.concat(" and This is new mathod of concatenating string")
+        console.log(newString)
+
+        var strWithWhiteSpaces="     this   contains             whitespaces     "
+        console.log(strWithWhiteSpaces)
+        console.log(strWithWhiteSpaces.trim())  // trim removes WhiteSpacesspace at the starting and ending 
+
+        var char3=str.charAt(2);
+        console.log(char3)
+        var char4=str.charCodeAt(2);   // gives the code of the character inn UTF-8
+        console.log(char4)
+
+        console.log(str[3])
+    </script>
+</body>
+</html>
